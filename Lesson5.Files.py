@@ -8,7 +8,7 @@ after = input("To what symbol/word/number do u want to change "+before+"?\n") #n
 
 filename = input("In which file do u want to save modified file?\n") #asks new file name
 
-file2 = open("something2.txt", "w") #open file for writing
+file2 = open(filename+".txt", "w") #open file for writing
 # if something2.txt doesn't exist, program will create it
 # else, it will rewrite existing one
 # so it's not important does file exist or not
