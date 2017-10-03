@@ -3,18 +3,18 @@ import time
 contacts = {"Madina":"87654321", "Zhalgas":"12345678"}
 
 """
-print(slovar["dog"])
+print(slovar["dog"]) # вытащить значение по ключу
 slovar["cow"] = "корова" # adding editing
 print(slovar)
 
 find = input("Что хочешь найти? ")
 
-if find in slovar:
+if find in slovar: # если есть в словаре (ищет по ключам)
     print(slovar["cat"])
 else:
     print("Нет такого слова")
 
-for key in slovar:
+for key in slovar: # пробегается по ключам
     print(key, "-", slovar[key])
 """
 
